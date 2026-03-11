@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "[json][jsonc][jsonl]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript][typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
