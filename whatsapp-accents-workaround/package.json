@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-accents-workaround",
+  "version": "1.0.0",
+  "description": "Accented letters workaround for WhatsApp on Firefox Linux",
+  "scripts": {
+    "build": "npx vite build",
+    "prettier": "prettier --write ."
+  },
+  "userscriptConfig": {
+    "match": [
+      "https://web.whatsapp.com/"
+    ]
+  }
+}

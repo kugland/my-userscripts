@@ -1,0 +1,27 @@
+{
+  "name": "my-userscripts",
+  "author": "André Kugland",
+  "license": "MIT",
+  "homepage": "https://github.com/kugland/my-userscripts",
+  "workspaces": [
+    "jetbrains-mono-everywhere",
+    "magnet-target-blank",
+    "whatsapp-accents-workaround"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces && npm run prettier --workspaces",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.24",
+    "lodash": "^4.17.23",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-monkey": "^7.1.9"
+  },
+  "userscriptConfig": {
+    "supportURL": "https://github.com/kugland/my-userscripts/issues",
+    "namespace": "github.com/kugland/my-userscripts"
+  }
+}

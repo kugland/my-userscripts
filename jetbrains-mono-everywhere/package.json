@@ -1,0 +1,9 @@
+{
+  "name": "jetbrains-mono-everywhere",
+  "version": "1.0.0",
+  "description": "Userscript to apply JetBrains Mono font everywhere",
+  "scripts": {
+    "build": "npx vite build",
+    "prettier": "prettier --write ."
+  }
+}

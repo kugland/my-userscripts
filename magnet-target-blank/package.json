@@ -1,0 +1,9 @@
+{
+  "name": "magnet-target-blank",
+  "version": "1.0.0",
+  "description": "Open magnet links in a new tab",
+  "scripts": {
+    "build": "npx vite build",
+    "prettier": "prettier --write ."
+  }
+}
