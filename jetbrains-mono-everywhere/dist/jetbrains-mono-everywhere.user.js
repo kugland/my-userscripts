@@ -10,6 +10,7 @@
 // @match        http://*/*
 // @match        https://*/*
 // @grant        GM.addStyle
+// @run-at       document-start
 // ==/UserScript==
 
 (function () {

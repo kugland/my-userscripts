@@ -5,5 +5,8 @@
   "scripts": {
     "build": "npx vite build",
     "prettier": "prettier --write ."
+  },
+  "userscriptConfig": {
+    "run-at": "document-start"
   }
 }
