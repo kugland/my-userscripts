@@ -7,7 +7,8 @@
 // @license      MIT
 // @homepage     https://github.com/kugland/my-userscripts
 // @supportURL   https://github.com/kugland/my-userscripts/issues
-// @match        https://web.whatsapp.com/
+// @match        http://*/*
+// @match        https://*/*
 // ==/UserScript==
 
 (function () {
