@@ -3,7 +3,7 @@ declare const GM: {
 };
 
 const fontName = "JetBrains Mono";
-const excludeDomains: string[] = ["localhost", "wikipedia.org"];
+const excludeDomains: string[] = ["localhost", "wikipedia.org", "x.com"];
 const excludeSelector: string[] = [
   "mat-icon",
   ":is(.material-icons)",

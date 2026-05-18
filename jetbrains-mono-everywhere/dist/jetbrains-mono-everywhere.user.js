@@ -14,10 +14,10 @@
 // ==/UserScript==
 
 (function () {
-  "use strict";
+  'use strict';
 
   const fontName = "JetBrains Mono";
-  const excludeDomains = ["localhost", "wikipedia.org"];
+  const excludeDomains = ["localhost", "wikipedia.org", "x.com"];
   const excludeSelector = [
     "mat-icon",
     ":is(.material-icons)",
@@ -28,7 +28,7 @@
     ':is(.nf):is([class*="nf-"])',
     ":is(.google-symbols)",
     ':is([class*="iconochive-"])',
-    ':is([class*="icon"])',
+    ':is([class*="icon"])'
   ];
   const extra = [];
   function testDomain(domain) {
@@ -53,4 +53,5 @@
     ${extra.join("\n")}
   `);
   }
+
 })();
