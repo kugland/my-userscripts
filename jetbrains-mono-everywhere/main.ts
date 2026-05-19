@@ -15,6 +15,7 @@ const excludeSelector: string[] = [
   ":is(.google-symbols)",
   ':is([class*="iconochive-"])',
   ':is([class*="icon"])',
+  ':is([data-cds="Icon"])',
 ];
 const extra: string[] = [];
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         jetbrains-mono-everywhere
 // @namespace    github.com/kugland/my-userscripts
-// @version      1.0.0
+// @version      1.0.1
 // @author       André Kugland
 // @description  Userscript to apply JetBrains Mono font everywhere
 // @license      MIT
@@ -28,7 +28,8 @@
     ':is(.nf):is([class*="nf-"])',
     ":is(.google-symbols)",
     ':is([class*="iconochive-"])',
-    ':is([class*="icon"])'
+    ':is([class*="icon"])',
+    ':is([data-cds="Icon"])'
   ];
   const extra = [];
   function testDomain(domain) {

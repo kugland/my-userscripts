@@ -1,6 +1,6 @@
 {
   "name": "jetbrains-mono-everywhere",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Userscript to apply JetBrains Mono font everywhere",
   "scripts": {
     "build": "npx vite build",
