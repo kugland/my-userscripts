@@ -17,8 +17,8 @@
     "lodash": "^4.17.23",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
-    "vite": "^7.3.1",
-    "vite-plugin-monkey": "^7.1.9"
+    "vite": "^8.0.16",
+    "vite-plugin-monkey": "^8.0.6"
   },
   "userscriptConfig": {
     "supportURL": "https://github.com/kugland/my-userscripts/issues",
